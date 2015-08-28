@@ -15,6 +15,7 @@ set shiftwidth=4
 set expandtab
 set smarttab
 set autoindent
+set smartindent
 set spelllang=en
 set noswapfile
 set autoread
