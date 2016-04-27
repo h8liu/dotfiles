@@ -23,3 +23,4 @@ set autoread
 map Q gq
 colorscheme default
 syntax on
+filetype plugin indent on
