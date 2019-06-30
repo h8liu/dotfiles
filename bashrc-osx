@@ -5,6 +5,7 @@ alias grep='grep -color=auto'
 alias fgrep='fgrep -color=auto'
 alias egrep='egrep -color=auto'
 alias cdp='cd -P'
+alias cm='git commit -a -m "."'
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
