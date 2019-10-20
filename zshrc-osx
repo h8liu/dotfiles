@@ -1,0 +1,9 @@
+PROMPT='%F{green}h8:%F{blue}%~%F{white}$ '
+
+alias ls='ls -G'
+alias cdp='cd -P'
+alias cm='git commit -a -m "."'
+
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$PATH
+export GO111MODULE=off
