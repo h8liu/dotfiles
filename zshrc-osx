@@ -3,7 +3,11 @@ PROMPT='%F{green}h8:%F{blue}%~%F{white}$ '
 alias ls='ls -G'
 alias cdp='cd -P'
 alias cm='git commit -a -m "."'
+alias python='python3 -q'
 
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 export GO111MODULE=off
+
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[4~" end-of-line
