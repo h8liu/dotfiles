@@ -26,3 +26,4 @@ syntax on
 filetype plugin indent on
 
 au FileType go set makeprg=smake
+au FileType go set noexpandtab
